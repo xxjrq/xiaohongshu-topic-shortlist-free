@@ -5,7 +5,7 @@ description: 使用用户指定的 Easy WebBridge 浏览器和关键词，在小
 version: 1.0.0
 repository: https://github.com/xxjrq/xiaohongshu-topic-shortlist-free
 license: MIT
-icon: "./icon-512.png"
+icon: icon-512.png
 tags:
   - xiaohongshu
   - content-research
@@ -19,8 +19,8 @@ interface:
   display_name: "小红书选题参考短名单"
   short_description: "从可见搜索卡片筛选五条相关参考，并标出证据、来源和缺项"
   default_prompt: "使用 $xiaohongshu-topic-shortlist-free。根据我提供的关键词、受众和 browserId，逐条阅读最多10张可见卡片的标题与摘要，按相关度和受众适配筛选最多5条；列出可见证据、来源、主题角度和缺项。"
-  icon_small: "./icon-512.png"
-  icon_large: "./icon-512.png"
+  icon_small: icon-512.png
+  icon_large: icon-512.png
 commands:
   self_test: node scripts/self-test.mjs
 self_test: node scripts/self-test.mjs
