@@ -1,0 +1,83 @@
+{
+  "fixture_notice": "离线页面资料模拟；不是在线采集结果。",
+  "keyword": "通勤穿搭",
+  "audience": "一线城市上班族",
+  "visible_results": [
+    {
+      "summary": "可见卡片摘要：适合通勤穿搭。",
+      "body_visible": false,
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见摘要明确说适合通勤穿搭；虽然正文和标题不可见，仍可按摘要判断主题相关，但不能推断正文内容。",
+        "evidence": [
+          "适合通勤穿搭"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    },
+    {
+      "title": "通勤穿搭：基础款",
+      "summary": "可见卡片摘要：基础搭配。",
+      "source": "https://example.invalid/partial/2",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见标题/摘要明确讨论通勤穿着或衣物搭配，符合选题主题。",
+        "evidence": [
+          "通勤穿搭",
+          "基础搭配。"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    },
+    {
+      "title": "通勤穿搭：鞋履",
+      "summary": "可见卡片摘要：舒适鞋履。",
+      "source": "https://example.invalid/partial/3",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见标题/摘要明确讨论通勤穿着或衣物搭配，符合选题主题。",
+        "evidence": [
+          "通勤穿搭",
+          "舒适鞋履。"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    },
+    {
+      "title": "通勤穿搭：包袋",
+      "summary": "可见卡片摘要：容量选择。",
+      "source": "https://example.invalid/partial/4",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见标题/摘要明确讨论通勤穿着或衣物搭配，符合选题主题。",
+        "evidence": [
+          "通勤穿搭",
+          "容量选择。"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    },
+    {
+      "title": "通勤穿搭：外套",
+      "source": "https://example.invalid/partial/5",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见标题明确指出通勤穿搭和外套；摘要未显示，因此只根据标题判断相关性并标记摘要缺失。",
+        "evidence": [
+          "通勤穿搭：外套"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    }
+  ]
+}

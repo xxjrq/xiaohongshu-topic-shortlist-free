@@ -1,0 +1,125 @@
+{
+  "fixture_notice": "离线 mock 页面资料；Agent 已逐条阅读可见标题/摘要并作出语义判定，不是线上采集结果。",
+  "keyword": "通勤穿搭",
+  "audience": "一线城市上班族",
+  "visible_results": [
+    {
+      "title": "周末露营装备：炉具清单",
+      "summary": "可见卡片摘要：户外炉具比较。",
+      "source": "https://example.invalid/note/unrelated",
+      "agent_review": {
+        "relevance_score": 0,
+        "audience_fit_score": 0,
+        "rationale": "内容讨论周末露营和户外炉具，没有日常通勤服装信息。",
+        "evidence": [
+          "周末露营装备",
+          "户外炉具"
+        ]
+      }
+    },
+    {
+      "title": "通勤胶囊衣橱：五件轮换",
+      "summary": "可见卡片摘要：上班族用五件基础款减少早晨搭配选择。",
+      "source": "https://example.invalid/note/1",
+      "agent_review": {
+        "relevance_score": 5,
+        "audience_fit_score": 5,
+        "rationale": "标题明确是通勤胶囊衣橱，摘要说明基础款轮换和上班族场景，主题与受众直接匹配。",
+        "evidence": [
+          "通勤胶囊衣橱",
+          "上班族用五件基础款"
+        ],
+        "theme": "通勤衣橱",
+        "angle": "把五件轮换拆成一周搭配，突出上班族减少早晨选择的收益。"
+      },
+      "body_visible": true
+      ,"body": "工作日通勤衣物可按上衣、下装和外套轮换，减少每天重新搭配的时间。"
+    },
+    {
+      "title": "通勤穿搭：雨天胶囊衣橱",
+      "summary": "可见卡片摘要：防水外套与鞋履的搭配建议。",
+      "source": "https://example.invalid/note/2",
+      "agent_review": {
+        "relevance_score": 5,
+        "audience_fit_score": 4,
+        "rationale": "标题和摘要直接讨论通勤穿搭及雨天衣物搭配，适配需日常上班的受众。",
+        "evidence": [
+          "通勤穿搭",
+          "防水外套与鞋履"
+        ],
+        "theme": "雨天通勤",
+        "angle": "围绕雨天通勤列出外套与鞋履组合。"
+      },
+      "body_visible": true
+      ,"body": "雨天优先考虑防水外套与便于行走的鞋履，按当天路程调整搭配。"
+    },
+    {
+      "title": "通勤穿搭：地铁轻量通勤怎么搭",
+      "summary": "可见卡片摘要：轻便容量与日常服装搭配建议。",
+      "source": "https://example.invalid/note/3",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 5,
+        "rationale": "标题指向地铁通勤搭配，摘要同时出现轻便和日常服装，符合上班场景。",
+        "evidence": [
+          "地铁轻量通勤",
+          "日常服装搭配"
+        ],
+        "theme": "地铁通勤",
+        "angle": "从地铁移动场景讲轻便穿搭与包袋选择。"
+      },
+      "body_visible": true
+      ,"body": "地铁通勤可选轻便包袋和便于活动的日常服装，按携带物品安排容量。"
+    },
+    {
+      "title": "通勤穿搭：预算友好鞋款替换",
+      "summary": "可见卡片摘要：分享鞋款替换思路，适合一线城市上班族。",
+      "source": "https://example.invalid/note/6",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 5,
+        "rationale": "标题聚焦通勤鞋款，摘要点明上班族并提供替换思路，和目标受众的日常需求有关。",
+        "evidence": [
+          "预算友好鞋款替换",
+          "一线城市上班族"
+        ],
+        "theme": "通勤鞋履",
+        "angle": "讲清不同通勤鞋款的替换思路与使用场景。"
+      },
+      "body_visible": true
+      ,"body": "通勤鞋可依据路面和行走时间轮换，注意鞋款用途和个人舒适度。"
+    },
+    {
+      "title": "五日通勤搭配：一周轮换表",
+      "summary": "可见卡片摘要：为上班族整理工作日轮换。",
+      "source": "https://example.invalid/note/5",
+      "agent_review": {
+        "relevance_score": 3,
+        "audience_fit_score": 4,
+        "rationale": "标题提出五日通勤搭配，摘要说明轮换方案，能服务需要工作日穿搭灵感的受众。",
+        "evidence": [
+          "五日通勤搭配",
+          "工作日轮换"
+        ],
+        "theme": "工作日搭配",
+        "angle": "把五个工作日的轮换安排讲清楚，减少重复购买。"
+      },
+      "body_visible": true
+      ,"body": "工作日搭配可以提前规划轮换，减少早晨重复选择。"
+    },
+    {
+      "title": "通勤桌面整理：五分钟收纳",
+      "summary": "可见卡片摘要：到公司后整理桌面与电脑文件。",
+      "source": "https://example.invalid/note/unrelated-commute",
+      "agent_review": {
+        "relevance_score": 0,
+        "audience_fit_score": 2,
+        "rationale": "虽然出现通勤，但标题与摘要都在讲办公桌面和文件整理，不涉及穿着搭配。",
+        "evidence": [
+          "通勤桌面整理",
+          "整理桌面"
+        ]
+      }
+    }
+  ]
+}

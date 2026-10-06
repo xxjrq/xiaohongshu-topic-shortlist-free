@@ -1,0 +1,20 @@
+{
+  "fixture_notice": "离线边界用例，不是线上采集结果。",
+  "keyword": "通勤穿搭",
+  "audience": "上班族",
+  "visible_results": [
+    {
+      "title": "周末露营装备",
+      "summary": "户外炉具比较",
+      "source": "https://example.invalid/unrelated",
+      "agent_review": {
+        "relevance_score": 0,
+        "audience_fit_score": 0,
+        "rationale": "可见标题/摘要讨论其他主题，没有通勤穿搭内容。",
+        "evidence": [
+          "周末露营装备"
+        ]
+      }
+    }
+  ]
+}

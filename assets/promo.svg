@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#FFF8F2"/>
+  <circle cx="1390" cy="150" r="260" fill="#F9DDD4"/>
+  <rect x="104" y="160" width="120" height="10" rx="5" fill="#E65245"/>
+  <text x="104" y="288" fill="#21232B" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="76" font-weight="700">小红书选题</text>
+  <text x="104" y="382" fill="#21232B" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="76" font-weight="700">参考短名单</text>
+  <text x="108" y="472" fill="#62646D" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="32">5 条可溯源参考 · 可见资料整理</text>
+  <rect x="104" y="570" width="470" height="82" rx="41" fill="#E65245"/>
+  <text x="146" y="624" fill="#FFFFFF" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="30" font-weight="600">主题分组 + 可用角度</text>
+  <rect x="956" y="130" width="500" height="640" rx="42" fill="#FFFFFF"/>
+  <image href="topic-research-source.png" x="986" y="160" width="440" height="440" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="1018" y="635" width="376" height="72" rx="20" fill="#FFF1EB"/>
+  <text x="1052" y="682" fill="#D4463B" font-family="PingFang SC, Noto Sans CJK SC, sans-serif" font-size="29" font-weight="600">只读 · 保留缺项</text>
+</svg>

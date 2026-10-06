@@ -1,0 +1,36 @@
+{
+  "fixture_notice": "离线边界用例，不是线上采集结果。",
+  "keyword": "通勤穿搭",
+  "audience": "上班族",
+  "visible_results": [
+    {
+      "title": "周末露营装备",
+      "summary": "户外炉具比较",
+      "source": "https://example.invalid/unrelated",
+      "agent_review": {
+        "relevance_score": 0,
+        "audience_fit_score": 0,
+        "rationale": "可见标题/摘要讨论其他主题，没有通勤穿搭内容。",
+        "evidence": [
+          "周末露营装备"
+        ]
+      }
+    },
+    {
+      "title": "通勤穿搭：基础款",
+      "summary": "通勤衣橱轮换",
+      "source": "https://example.invalid/related",
+      "agent_review": {
+        "relevance_score": 4,
+        "audience_fit_score": 4,
+        "rationale": "可见标题/摘要明确讨论通勤穿着或衣物搭配，符合选题主题。",
+        "evidence": [
+          "通勤穿搭",
+          "通勤衣橱轮"
+        ],
+        "theme": "通勤穿搭",
+        "angle": "提炼可轮换且易执行的通勤穿搭方法。"
+      }
+    }
+  ]
+}
